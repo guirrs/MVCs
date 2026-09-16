@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Biblioteca.Models.Livro>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form  asp-controller="Home" asp-action="CadastrarLivro" method="post">
+    <input type="text" name="nomeLivro" placeholder="Nome do livro" />
+    <input type="text" name="descricao" placeholder="Descrição" />
+    <button type="submit">Adicionar Livro</button>
+</form>
+
+<ul>
+    @foreach (var livro in Model)
+    {
+        <li>@livro.NomeLivro - @livro.Descricao</li>
+        <form asp-controller="Home" asp-action="ExcluirLivro" method="post">
+            <input type="hidden" name="livroId" value="@livro.LivroId" />
+            <button type="submit">Deletar</button>
+        </form>
+    }
+</ul>
+ 
