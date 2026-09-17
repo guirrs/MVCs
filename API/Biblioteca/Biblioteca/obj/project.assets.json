@@ -3152,11 +3152,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\46336142825\\Desktop\\FindControlAPI\\API\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\46336142825\\Desktop\\MVCs\\API\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "C:\\Users\\46336142825\\Desktop\\FindControlAPI\\API\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
+      "projectPath": "C:\\Users\\46336142825\\Desktop\\MVCs\\API\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
       "packagesPath": "C:\\Users\\46336142825\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\46336142825\\Desktop\\FindControlAPI\\API\\Biblioteca\\Biblioteca\\obj\\",
+      "outputPath": "C:\\Users\\46336142825\\Desktop\\MVCs\\API\\Biblioteca\\Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

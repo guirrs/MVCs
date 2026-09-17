@@ -1,0 +1,12 @@
+﻿@page
+@model Mercado.Views.Cadastro.IndexModel
+@{
+}
+
+<form asp-controller="Cadastro" asp-action="Cadastro" method="post">
+    <input type="text" name="email" placeholder="email@gmail.com" value="email"/>
+    <input type="text" name="senha" placeholder="senha" value="senha"/>
+    <button type="submit">Cadastrar</button>
+</form>
+
+<button><a href="/Login">Fazer Login</a></button>

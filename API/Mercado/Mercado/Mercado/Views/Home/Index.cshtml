@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form asp-controller="Home" asp-action="CadastrarItem" method="post">
+    <input type="text" name="Item" placeholder="Nome do Item" />
+    <input type="number" name="quantidade" placeholder="Quantidade" />
+    <button type="submit">Cadastrar</button>
+</form>
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@item.NomeItem - @item.Quantidade</li>
+
+        <form asp-controller="Home" asp-action="Editar2" method="post">
+
+            <input type="hidden" name="id" value="@item.ItemId" />
+
+            <input type="text"
+                   name="Nomeitem"
+                   value="@item.NomeItem"
+                   required />
+
+            <input type="number"
+                   name="quantidade"
+                   value="@item.Quantidade"
+                   min="1"
+                   required />
+
+            <button type="submit">Editar</button>
+
+        </form>
+
+        <form asp-controller="Home" asp-action="DeletarItem" method="post">
+            <input type="hidden" name="itemId" value="@item.ItemId" />
+            <button type="submit">Deletar</button>
+        </form>
+
+    }
+    )
+</ul>

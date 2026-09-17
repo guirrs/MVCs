@@ -1,0 +1,12 @@
+﻿@page
+@model Mercado.Views.Login.IndexModel
+@{
+}
+
+<form asp-controller="Login" asp-action="LoginUsuario" method="post">
+    <input name="email" placeholder="email@gmail.com"/>
+    <input name="senha" placeholder="senha"/>
+    <button type="submit">Entrar</button>
+</form>
+
+<button><a href="/Cadastro">Cadastrar</a></button>
