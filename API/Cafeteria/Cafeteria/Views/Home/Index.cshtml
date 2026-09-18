@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form asp-controller="Home" asp-action="CadastrarItem" method="post">
+    <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" class="form-control" id="nome" name="nome" required>
+    </div>
+    <div class="form-group">
+        <label for="preco">Preço:</label>
+        <input type="number" class="form-control" id="preco" name="preco" step="0.01" required>
+    </div>
+    <div class="form-group">
+        <label for="descricao">Descrição:</label>
+        <textarea class="form-control" id="descricao" name="descricao" required></textarea>
+    </div>
+    <div class="form-group">
+        <label for="imagem">Imagem:</label>
+        <input type="file" class="form-control" id="imagem" name="imagem" ></input>
+    </div>
+    <button type="submit" class="btn btn-primary">Cadastrar Item</button>
+</form>
+
+<ul>
+    @foreach(var item in Model){
+        @if(item.Imagem != null)
+        {
+            <img src="data:image/png;base64,@Convert.ToBase64String(item.Imagem)" width="100" />
+        }
+        <li>@item.NomeItem - @item.Preco - @item.Descricao</li>
+        <Form asp-controller="Home" asp-action="DeletarItem"> 
+              <input type="hidden" name="id" value="@item.ItemId"/>
+             <button>Deletar</button>
+        </Form>
+
+        <Form asp-controller="Home" asp-action="Editar">
+            <input type="hidden" value="@item.ItemId" name="id"/>
+            <input type="text" value="@item.NomeItem" name="nome"/>
+            <input type="text" value="@item.Descricao" name="descricao"/>
+            <input type="number" value="@item.Preco" name="preco" />
+
+            <button>Editar</button>
+        </Form>
+    }
+</ul>

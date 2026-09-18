@@ -11,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{5CDB9C07-0CBC-F866-5945-5FB624434813}|Mercado\\Mercado.csproj|solutionrelative:mercado\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CDB9C07-0CBC-F866-5945-5FB624434813}|Mercado\\Mercado.csproj|c:\\users\\46336142825\\desktop\\mvcs\\api\\mercado\\mercado\\mercado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CDB9C07-0CBC-F866-5945-5FB624434813}|Mercado\\Mercado.csproj|solutionrelative:mercado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5CDB9C07-0CBC-F866-5945-5FB624434813}|Mercado\\Mercado.csproj|c:\\users\\46336142825\\desktop\\mvcs\\api\\mercado\\mercado\\mercado\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CDB9C07-0CBC-F866-5945-5FB624434813}|Mercado\\Mercado.csproj|solutionrelative:mercado\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDB9C07-0CBC-F866-5945-5FB624434813}|Mercado\\Mercado.csproj|c:\\users\\46336142825\\desktop\\mvcs\\api\\mercado\\mercado\\mercado\\controllers\\cadastrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CDB9C07-0CBC-F866-5945-5FB624434813}|Mercado\\Mercado.csproj|solutionrelative:mercado\\controllers\\cadastrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDB9C07-0CBC-F866-5945-5FB624434813}|Mercado\\Mercado.csproj|c:\\users\\46336142825\\desktop\\mvcs\\api\\mercado\\mercado\\mercado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CDB9C07-0CBC-F866-5945-5FB624434813}|Mercado\\Mercado.csproj|solutionrelative:mercado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CDB9C07-0CBC-F866-5945-5FB624434813}|Mercado\\Mercado.csproj|c:\\users\\46336142825\\desktop\\mvcs\\api\\mercado\\mercado\\mercado\\views\\cadastro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5CDB9C07-0CBC-F866-5945-5FB624434813}|Mercado\\Mercado.csproj|c:\\users\\46336142825\\desktop\\mvcs\\api\\mercado\\mercado\\mercado\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5CDB9C07-0CBC-F866-5945-5FB624434813}|Mercado\\Mercado.csproj|solutionrelative:mercado\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CDB9C07-0CBC-F866-5945-5FB624434813}|Mercado\\Mercado.csproj|c:\\users\\46336142825\\desktop\\mvcs\\api\\mercado\\mercado\\mercado\\controllers\\cadastrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CDB9C07-0CBC-F866-5945-5FB624434813}|Mercado\\Mercado.csproj|solutionrelative:mercado\\controllers\\cadastrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CDB9C07-0CBC-F866-5945-5FB624434813}|Mercado\\Mercado.csproj|c:\\users\\46336142825\\desktop\\mvcs\\api\\mercado\\mercado\\mercado\\views\\cadastro\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\46336142825\\Desktop\\MVCs\\API\\Mercado\\Mercado\\Mercado\\Views\\Cadastro\\Index.cshtml",
               "RelativeDocumentMoniker": "Mercado\\Views\\Cadastro\\Index.cshtml",
@@ -82,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\46336142825\\Desktop\\MVCs\\API\\Mercado\\Mercado\\Mercado\\Program.cs",
               "RelativeDocumentMoniker": "Mercado\\Program.cs",
@@ -100,7 +100,7 @@
               "RelativeDocumentMoniker": "Mercado\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\46336142825\\Desktop\\MVCs\\API\\Mercado\\Mercado\\Mercado\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Mercado\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwCkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-09-17T11:24:28.18Z",
               "EditorCaption": ""
@@ -113,14 +113,14 @@
               "RelativeDocumentMoniker": "Mercado\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\46336142825\\Desktop\\MVCs\\API\\Mercado\\Mercado\\Mercado\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Mercado\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAwEoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAADwv0oAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-17T11:16:06.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\46336142825\\Desktop\\MVCs\\API\\Mercado\\Mercado\\Mercado\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Mercado\\Controllers\\LoginController.cs",
@@ -128,23 +128,25 @@
               "RelativeToolTip": "Mercado\\Controllers\\LoginController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-17T12:32:23.092Z"
+              "WhenOpened": "2026-09-17T12:32:23.092Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "CadastroController.cs",
               "DocumentMoniker": "C:\\Users\\46336142825\\Desktop\\MVCs\\API\\Mercado\\Mercado\\Mercado\\Controllers\\CadastroController.cs",
               "RelativeDocumentMoniker": "Mercado\\Controllers\\CadastroController.cs",
               "ToolTip": "C:\\Users\\46336142825\\Desktop\\MVCs\\API\\Mercado\\Mercado\\Mercado\\Controllers\\CadastroController.cs",
               "RelativeToolTip": "Mercado\\Controllers\\CadastroController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAuwB0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-17T11:52:31.279Z"
+              "WhenOpened": "2026-09-17T11:52:31.279Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\46336142825\\Desktop\\MVCs\\API\\Mercado\\Mercado\\Mercado\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "Mercado\\Views\\Login\\Index.cshtml",

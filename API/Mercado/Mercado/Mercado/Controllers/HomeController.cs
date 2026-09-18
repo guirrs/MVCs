@@ -68,7 +68,11 @@ namespace Mercado.Controllers
 
             _context.SaveChanges();
 
-            return RedirectToAction("Index");
+            List<Item> items = _context.Items
+    .OrderByDescending(i => i.ItemId)
+    .ToList();
+
+            return RedirectToAction("Index",items);
         }
     }
 }

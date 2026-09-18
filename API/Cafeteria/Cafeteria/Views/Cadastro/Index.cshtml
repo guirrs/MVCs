@@ -1,0 +1,13 @@
+﻿@page
+@model Cafeteria.Views.Cadastro.IndexModel
+@{
+}
+<h1>Cadastro</h1>
+<form asp-controller="Cadastro" asp-action="CadastrarUsuario">
+    <h2>Email</h2>
+    <input value="email" name="email" placeholder="email@email.com"/>
+    <h2>Senha</h2>
+    <input value="senha" name="senha" placeholder="senha"/>
+
+    <button>Cadastrar</button>
+</form>
